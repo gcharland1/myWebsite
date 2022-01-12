@@ -7,6 +7,10 @@
     3. spring.datasource.username={myPostgreSQLUsername}
     4. spring.datasource.password={myPassword}
     ```
+3. Change line 17 of `pom.xml` to match your Java Version
+    ```
+    <java.version>17</java.version>
+    ```
 
 ## Installing and running the API
 1. run `./mvnw clean` to make sure no `target/` folder exists
