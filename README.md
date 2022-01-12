@@ -4,8 +4,8 @@
 1. Initiate a new empty postgreSQL database named `student` on port `5432`
 2. Change lines 3 and 4 of `application.properties` to match you user and password of choice
     ```
-    3. spring.datasource.username={myPostgreSQLUsername}
-    4. spring.datasource.password={myPassword}
+    spring.datasource.username={myPostgreSQLUsername}
+    spring.datasource.password={myPassword}
     ```
 3. Change line 17 of `pom.xml` to match your Java Version
     ```
